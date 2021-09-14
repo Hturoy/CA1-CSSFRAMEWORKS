@@ -3,7 +3,7 @@ import variables from '../../sass/partials/_layout.scss'
 
 const Wrapper = styled.div ` 
     background-color: ${variables.$lightgray};
-    widht: 100%;
+    width: 100%;
     height: 70px;
 
 `
