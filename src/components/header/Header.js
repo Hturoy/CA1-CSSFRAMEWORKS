@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import { Colors } from '../../global'
 import { Fonts } from '../../global'
+import Searchbar from '../searchbar/Searchbar'
 
 
 const Wrapper = styled.div ` 
@@ -53,7 +54,7 @@ const Header = () => {
     return (
         <>
         <Wrapper>
-
+            
             <LogoWrapper>
                 <h1>The Yay Company</h1>
             </LogoWrapper>
@@ -63,6 +64,8 @@ const Header = () => {
             <a href="#">News</a>
             <a href="#">Contact</a>
             </ContentWrapper>
+
+            <Searchbar></Searchbar>
         </Wrapper>
         </>
     )
