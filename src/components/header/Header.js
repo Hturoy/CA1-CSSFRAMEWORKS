@@ -1,8 +1,9 @@
 import styled from 'styled-components'
-import variables from '../../sass/partials/_layout.scss'
+import { Colors } from '../../global'
+
 
 const Wrapper = styled.div ` 
-    background-color: ${variables.$lightgray};
+    background-color: ${Colors.lightGray} ;
     width: 100%;
     height: 70px;
 
