@@ -11,12 +11,12 @@ export const Colors = {
     gray: '#767676',
     lightGray: '#C7C7C7',
     darkgray: '#767676',
-    gradient: 'radial-gradient(circle, #FFFFFF 0%, #584949'
+    gradient: 'radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%);'
 }
 
 export const Fonts = {
-    lato: "font-family: 'Lato', sans-serif;",
-    playfair: "font-family: 'Playfair Display', serif;"
+    lato: "'Lato', sans-serif;",
+    playfair: "'Playfair Display', serif;"
 }
 
 
@@ -33,6 +33,11 @@ export const GlobalStyle = createGlobalStyle `
 
     h1 h2 {
         font-family: ${Fonts.playfair};
+    }
+
+
+    body {
+        background: ${Colors.gradient};
     }
     
 `

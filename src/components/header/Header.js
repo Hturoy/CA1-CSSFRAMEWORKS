@@ -28,10 +28,18 @@ const LogoWrapper = styled.div `
 const ContentWrapper = styled.div `
     display: flex;
     flex-direction: row;
+    padding: 10px;
     padding-left: 50px;
     a {
         color: black;
         margin: 10px;
+        padding: 5px 10px 5px 10px;
+
+    }
+
+    .here {
+        background-color: ${Colors.lightGray};
+        border-radius: 12px;
     }
 `
 
@@ -51,7 +59,7 @@ const Header = () => {
             </LogoWrapper>
 
             <ContentWrapper>
-            <a href="#">Home</a>
+            <a className='here' href="#">Home</a>
             <a href="#">News</a>
             <a href="#">Contact</a>
             </ContentWrapper>
