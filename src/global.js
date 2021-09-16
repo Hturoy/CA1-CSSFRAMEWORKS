@@ -20,6 +20,8 @@ export const Fonts = {
 }
 
 
+
+
 export const GlobalStyle = createGlobalStyle `
 
     * {

@@ -8,7 +8,6 @@ export const Wrapper = styled.div `
     width: 245px;
     border-radius: 5px;
     background-color: white;
-    float: right;
 `
 
 export const Input = styled.input `
@@ -36,7 +35,7 @@ const Searchbar = () => {
     return (
         <>  
             <Wrapper>
-                <Input placeholder='Search'></Input>
+                <Input placeholder=' Search'></Input>
                 <SearchButton>Go</SearchButton>
             </Wrapper>
         </>   

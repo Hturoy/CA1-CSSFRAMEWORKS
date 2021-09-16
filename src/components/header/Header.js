@@ -10,7 +10,17 @@ const Wrapper = styled.div `
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     padding-left: 100px;
+`
+const Container = styled.div `
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+`
+
+const SearchWrap = styled.div `
+    padding: 100px;
 `
 
 const LogoWrapper = styled.div `
@@ -54,18 +64,20 @@ const Header = () => {
     return (
         <>
         <Wrapper>
-            
-            <LogoWrapper>
-                <h1>The Yay Company</h1>
-            </LogoWrapper>
+            <Container>
+                <LogoWrapper>
+                    <h1>The Yay Company</h1>
+                </LogoWrapper>
 
-            <ContentWrapper>
-            <a className='here' href="#">Home</a>
-            <a href="#">News</a>
-            <a href="#">Contact</a>
-            </ContentWrapper>
-
-            <Searchbar></Searchbar>
+                <ContentWrapper>
+                    <a className='here' href="#">Home</a>
+                    <a href="#">News</a>
+                    <a href="#">Contact</a>
+                </ContentWrapper>
+                </Container>
+            <SearchWrap>
+                <Searchbar></Searchbar>
+            </SearchWrap>
         </Wrapper>
         </>
     )
