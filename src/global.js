@@ -33,8 +33,10 @@ export const GlobalStyle = createGlobalStyle `
         font-family: ${Fonts.lato};
     }
 
-    h1 h2 {
+    h1, h2 {
         font-family: ${Fonts.playfair};
+        font-style: italic;
+        color: ${Colors.pink};
     }
 
 
