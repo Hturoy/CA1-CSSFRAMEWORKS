@@ -13,7 +13,7 @@ import Carousel3 from '../../media/carouselImages/carousel-3.jpg';
 const Slideshow = () => {
     return (
         <> 
-<Carousel>
+<Carousel md>
   <Carousel.Item>
     <img
       className="d-block w-100"
